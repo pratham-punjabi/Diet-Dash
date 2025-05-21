@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diet Dash - Healthy & Tasty Meal Plans</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Cursor Dot -->
+  <div class="cursor-dot"></div>
+  
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-circle">
+      <i class="fas fa-utensils"></i>
+    </div>
+    <p>Preparing fresh meals for you...</p>
+  </div>
+
+  <div class="bmi-wrapper">  <!-- ✅ New outer div -->
+  
+    <div class="bmi-calculator">  <!-- 🌟 Your original code -->
+        <h2>BMI Calculator</h2>
+        <p>Enter your height and weight:</p>
+        <div class="bmi-inputs">
+            <input type="number" id="height" placeholder="Height (cm)">
+            <input type="number" id="weight" placeholder="Weight (kg)">
+        </div>
+        <button class="btn calculate-bmi" onclick="calculateBMI()">Calculate BMI</button>
+        <p id="bmi-result" class="bmi-result"></p>
+    </div>
+  
+  </div>
+
+  <!-- Leaf Background Elements -->
+  <div class="leaf leaf-1"></div>
+  <div class="leaf leaf-2"></div>
+  <div class="leaf leaf-3"></div>
+
+  <!-- Main Content -->
+  <header data-aos="fade-down">
+    <div class="logo">
+      <img src="Logo.png" alt="Diet Dash Logo">
+
+      <span>DIET DASH</span>
+    </div>
+    <nav>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#how-it-works" class="nav-link">How It Works</a>
+      <a href="#testimonials" class="nav-link">Success Stories</a>
+      <button class="btn-login" onclick="window.location.href='../Login Page/login.html?form=login'">Login</button>
+      <button class="btn btn-primary" onclick="window.location.href='signup.html'">Get Started</button>
+    </nav>
+  </header>
+
+   <!-- Hero Section -->
+   <section class="hero">
+    <div class="hero-image-container">
+      <img src="assets/hero-image.jpg" alt="Healthy Food" class="hero-image">
+    </div>
+  
+    
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Healthy Eating <span class="highlight">Made Delicious</span></h1>
+      <p class="subtitle">Personalized meal plans that are as tasty as they are nutritious</p>
+  
+      <div class="search-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="search-box">
+          <select id="goal-select">
+            <option value="" disabled selected>What's your goal?</option>
+            <option value="weight loss">🍏 Weight Loss</option>
+            <option value="muscle building">💪 Muscle Building</option>
+            <option value="weight gaining">🍲 Weight Gain</option>
+            <option value="balanced health">⚖️ Balanced Health</option>
+          </select>
+          <button class="btn-search">
+            <i class="fas fa-utensils"></i> Find Meals
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  
+
+  <section class="stats-section" data-aos="fade-up">
+    <div class="stat-card">
+      <div class="stat-icon">🥗</div>
+      <h3>Delicious</h3>
+      <p>Nutritious Recipes</p>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⚡</div>
+      <h3>94%</h3>
+      <p>Success Rate</p>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">⏱️</div>
+      <h3>85%</h3>
+      <p>Quick Prep Meals</p>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <h2 class="section-title" data-aos="fade-up">Why You'll Love <span class="highlight">Diet Dash</span></h2>
+    
+    <div class="features-grid">
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature-icon">🍴</div>
+        <h3>Tasty Recipes</h3>
+        <p>Meals that satisfy your taste buds while meeting your nutrition goals.</p>
+      </div>
+      
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="feature-icon">🧑‍🍳</div>
+        <h3>Chef-Approved</h3>
+        <p>All recipes created by professional nutritionists and chefs.</p>
+      </div>
+      
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-icon">🛒</div>
+        <h3>Smart Shopping</h3>
+        <p>Get optimized grocery lists to minimize waste and cost.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="how-it-works">
+    <h2 class="section-title" data-aos="fade-up">How It <span class="highlight">Works</span></h2>
+    
+    <div class="steps-container">
+      <div class="step" data-aos="fade-up" data-aos-delay="100">
+        <div class="step-number">1</div>
+        <h3>Tell Us About You</h3>
+        <p>Share your goals, preferences, and dietary needs.</p>
+      </div>
+      
+      <div class="step" data-aos="fade-up" data-aos-delay="200">
+        <div class="step-number">2</div>
+        <h3>Get Your Plan</h3>
+        <p>Receive a personalized meal plan designed just for you.</p>
+      </div>
+      
+      <div class="step" data-aos="fade-up" data-aos-delay="300">
+        <div class="step-number">3</div>
+        <h3>Enjoy & Thrive</h3>
+        <p>Cook delicious meals and watch your progress.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content" data-aos="fade-up">
+      <h2>Ready to Transform Your <span class="highlight">Eating Habits</span>?</h2>
+      <p>Join our community and start your journey today</p>
+      <button class="btn-primary btn-large">Get Your Meal Plan</button>
+    </div>
+  </section>
+
+  <!-- AOS and Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <div id="meals"></div>
+
+  <div id="meals-container"></div>
+
+  
+</body>
+</html>

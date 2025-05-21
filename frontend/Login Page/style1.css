@@ -1,0 +1,118 @@
+/* Reset some default styles (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /* Container for the whole card */
+  .container {
+    width: 350px;
+    margin: 5% auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Tab buttons (Log In / Register) */
+  .tab-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons button {
+    width: 50%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #666;
+    transition: color 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-buttons button.active {
+    color: #1bce24;
+    border-bottom: 2px solid #1bce24;
+  }
+  
+  /* Social icons container */
+  .social-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #1bce24, #1bce24);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  /* Forms */
+  .form {
+    display: none; /* Hide forms by default */
+    flex-direction: column;
+  }
+  
+  .active-form {
+    display: flex; /* Show the active form */
+    flex-direction: column;
+  }
+  
+  .form label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #333;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Checkboxes and Terms & Conditions */
+  .remember, .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .remember label, .terms label {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Gradient Button */
+  .gradient-button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #1bce24, #1bce24);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .gradient-button:hover {
+    opacity: 0.9;
+  }
