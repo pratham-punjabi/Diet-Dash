@@ -71,3 +71,22 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
+
+---
+
+## 🙌 Contributions
+
+Feel free to fork the project and suggest improvements! Open issues or submit pull requests to contribute.
+
+---
+
+## 📬 Contact
+
+For queries or collaborations, feel free to reach out:
+
+- **Name**: *Pratham Punjabi*
+- **Email**: *prathampunjabi705@gmailcom*
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+
+---
+
