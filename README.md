@@ -85,8 +85,8 @@ Feel free to fork the project and suggest improvements! Open issues or submit pu
 For queries or collaborations, feel free to reach out:
 
 - **Name**: *Pratham Punjabi*
-- **Email**: *prathampunjabi705@gmailcom*
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **Email**: *prathampunjabi705@gmail.com*
+- **LinkedIn**: https://www.linkedin.com/in/pratham-p-b288b1218/
 
 ---
 
