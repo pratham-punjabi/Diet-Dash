@@ -66,4 +66,8 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 
 **5. Run migrations and start the server**  
 
-
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
