@@ -6,11 +6,10 @@
 
 ## 🌟 Features
 
-- 🎯 Goal-Based Diet Plans (Weight Loss, Muscle Gain, Maintenance)
+- 🎯 Goal-Based Diet (Weight Loss, Muscle Gain, Maintenance)
 - ⚖️ BMI and Daily Calorie Calculator
 - 🥗 Personalized Meals Based on Dietary Preferences (Veg/Non-Veg)
 - 📊 Nutritional Breakdown (Calories, Protein, Carbs, Fats)
-- 🛠️ Admin Panel to Add, Update, and Manage Meals
 - 💻 Clean and Responsive Frontend Interface
 
 ---
