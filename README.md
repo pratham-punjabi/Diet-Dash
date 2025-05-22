@@ -27,7 +27,8 @@
 
 ## 📁 Project Structure
 Diet Dash/
-- │── Login-Backend/ # (Optional – can be ignored in use)
+│── Login-Backend/ # (Optional – can be ignored in use)
+
 │── MainInterface-Backend/ # Diet Plan Backend
 │ ├── diet/ # Django App for diet logic
 │ ├── maininterfacebackend/ # Django Project Config
