@@ -56,3 +56,9 @@ git clone https://github.com/your-username/diet-dash.git
 
 **2. Setup Virtual Environment**
 
+```bash
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+```
+
+
