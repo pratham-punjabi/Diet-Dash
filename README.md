@@ -62,3 +62,8 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
 
+**4. Configure your database connection in `settings.py` (MySQL)**
+
+**5. Run migrations and start the server**  
+
+
