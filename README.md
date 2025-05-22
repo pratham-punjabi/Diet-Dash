@@ -21,7 +21,7 @@
 - **Backend**: Django (Two separate projects)
   - `Login-Backend/`: Handles user-related features *(optional in this README)*
   - `MainInterface-Backend/`: Manages diet plans and meal logic
-- **Database**: MySQL (`dietdash`)
+- **Database**: MySQL 
 
 ---
 
