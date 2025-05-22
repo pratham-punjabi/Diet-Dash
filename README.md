@@ -48,4 +48,4 @@ Diet Dash/
 
 ## 📌 Usage
 
-1. Clone the repository  
+**1. Clone the repository**  
