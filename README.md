@@ -44,3 +44,8 @@ Diet Dash/
 
 │── README.md
 
+---
+
+## 📌 Usage
+
+1. Clone the repository  
