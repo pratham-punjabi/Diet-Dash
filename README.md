@@ -25,23 +25,18 @@
 ---
 
 ## 📁 Project Structure
+
+```bash
 Diet Dash/
-
-│── Login-Backend/ *# (Optional – can be ignored in use)*
-
-│── MainInterface-Backend/ *# Diet Plan Backend*
-
+│── Login-Backend/   *# (Optional – can be ignored in use)*
+│── MainInterface-Backend/    *# Diet Plan Backend*
 │ ├── diet/ *# Django App for diet logic*
-
-│ ├── maininterfacebackend/ *# Django Project Config*
-
-│── Frontend/ *# Frontend Files*
-
-│ ├── login/ *# Login UI (optional)*
-
-│ ├── main_interface/ *# Diet Plans UI*
-
+│ ├── maininterfacebackend/     *# Django Project Config*
+│── Frontend/    *# Frontend Files*
+│ ├── login/    *# Login UI (optional)*
+│ ├── main_interface/    *# Diet Plans UI*
 │── README.md
+```
 
 ---
 
