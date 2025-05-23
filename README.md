@@ -53,7 +53,7 @@ Diet Dash/
 git clone https://github.com/your-username/diet-dash.git
 ```
 
-**2. Setup Virtual Environment**
+### **2. Setup Virtual Environment**
 
 ```bash
 python -m venv venv
@@ -61,9 +61,9 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
 
-**4. Configure your database connection in `settings.py` (MySQL)**
+### **4. Configure your database connection in `settings.py` (MySQL)**
 
-**5. Run migrations and start the server**  
+### **5. Run migrations and start the server**  
 
 ```bash
 python manage.py makemigrations
