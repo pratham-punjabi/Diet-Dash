@@ -72,6 +72,8 @@ python manage.py runserver
 
 Feel free to fork the project and suggest improvements! Open issues or submit pull requests to contribute.
 
+This project was collaboratively developed by Pratham Punjabi and [@Prathamporwal](https://github.com/Prathamporwal).
+
 ---
 
 ## 📬 Contact
